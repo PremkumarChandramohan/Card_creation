@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(36, 39, 230);
+}
+.header{
+    text-align: center;
+    background-color:royalblue;
+}
+.card{
+    float: left;
+    width:33.3%;
+    text-align: center;
+    color: white;
+    background-color: rgb(197, 13, 13);
+    border-radius: 20px;
+    height: 280px;
+}
+.card:hover{
+    transform:scale(1.2);
+    transition:all 0.5s ease;
+}
+.card button{
+    cursor: pointer;
+    background-color:rgb(43, 228, 19);
+    border-radius:9px;
+    height: 30px;
+    width: 70px
+}
+.card button:hover{
+    transform:scale(1.1);
+    transition:all 0.5s linear;
+}
+.card1{
+    float: left;
+    width:50%;
+    text-align: center;
+    color: white;
+    background-color: rgb(197, 13, 13);
+    border-radius: 20px;
+    height: 280px;
+}
+.card1:hover{
+    transform:scale(1.1);
+    transition:all 0.5s ease;
+}
+.card1 button{
+    cursor: pointer;
+    background-color:rgb(43, 228, 19);
+    border-radius:9px;
+    height: 30px;
+    width: 70px
+}
+.card1 button:hover{
+    transform:scale(1.1);
+    transition:all 0.5s linear;
+}
